@@ -9,7 +9,7 @@ app.use(express.json()); // Middleware to parse JSON request bodies
 dotenv.config();
 
 // Port Configuration
-port = process.env.port || 8890
+port = process.env.PORT || 8890
 app.listen(port, () => {
     console.log("server start")
 })
